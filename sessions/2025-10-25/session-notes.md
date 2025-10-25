@@ -709,3 +709,539 @@ Mixed session combining practice problem verification (testing yesterday's learn
 ---
 
 **Session Status**: COMPLETE - Ready to save
+
+---
+
+# Session Continuation - October 25, 2025 (Part 2)
+
+## Session Overview - Part 2
+- **Date**: 2025-10-25
+- **Duration**: ~45 minutes
+- **Format**: Practice problem testing - mixed topics
+- **Main Topics**: Portfolio immunization, Capital loss carryover, Modified duration, CAPM, Gordon Growth Model with retention ratio
+- **Days Until Exam**: 16 days
+
+---
+
+## Practice Problems - Session Continuation
+
+### Topic 5: Portfolio Immunization (D.32)
+
+**Topic**: D.32 Bond and stock valuation - Portfolio immunization strategy
+
+**Problem Given**: Portfolio immunization attempts to balance which two of the following components of interest rate risk?
+- Price risk and credit risk
+- Price risk and reinvestment risk ✓
+- Reinvestment risk and credit risk
+- Default risk and price risk
+
+**Student's Initial Understanding**:
+- ❓ Not familiar with "portfolio immunization" term
+- Initial thought: "Sounds like building a good portfolio, removing unsystematic risk"
+- Confused immunization with diversification
+
+---
+
+**Teaching Approach - What is Portfolio Immunization?**
+
+**Portfolio immunization** is a bond strategy that protects against **interest rate risk** when you have a future liability to pay (e.g., pension payment in 10 years).
+
+**The Key Insight**: When interest rates change, two opposite things happen:
+
+1. **Price Risk**: Rates UP → Bond prices DOWN (you lose on bond value)
+2. **Reinvestment Risk**: Rates UP → Reinvest coupons at HIGHER rates (you gain on reinvestment)
+
+**These two risks move in OPPOSITE directions!**
+
+Immunization balances them so they **cancel each other out**.
+
+---
+
+**Concrete Example Provided**:
+
+**Scenario**: Pension fund manager needs to pay $100,000 in exactly 5 years
+
+**Strategy**: Buy 5-year bond, 6% coupon, $100,000 face value
+
+**What happens if rates RISE to 8% right after purchase?**
+
+**Loss from Price Risk**:
+- Bond market value drops to ~$92,000 (rates up = price down)
+- Loss: **$8,000**
+
+**Gain from Reinvestment Risk**:
+- Year 1-4 coupons: $6,000/year
+- Now reinvest at 8% instead of 6%
+- Extra gain from higher reinvestment: **~$8,000**
+
+**The two cancel out!** Still end up with $100,000 to pay retiree.
+
+---
+
+**The Seesaw Analogy**:
+- Rates go UP → Bond prices FALL (bad) BUT reinvestment income RISES (good)
+- Rates go DOWN → Bond prices RISE (good) BUT reinvestment income FALLS (bad)
+
+When perfectly immunized, these effects offset each other.
+
+**Key to immunization**: Match bond's **duration** to time horizon (5 years)
+
+---
+
+**Answer: Price risk and reinvestment risk** ✓
+
+---
+
+**Understanding Level**: GOOD
+- Initially confused with diversification
+- Quickly grasped the offsetting risk concept
+- Understood real-world application (pension fund example)
+
+---
+
+### Topic 6: Capital Loss Carryover and Municipal Bond Taxation (E.40, E.36)
+
+**Topic**: E.40 Tax reduction techniques, E.36 Income taxation fundamentals
+
+**Problem Given**: Investor with $100,000 short-term capital loss carryover invests equal amounts in each position. Which has GREATEST reduction to capital loss carryover?
+
+**Options**:
+- A) Municipal bonds 5% coupon, home state, bought at 5% discount, held to par
+- B) Municipal bonds 5% coupon, home state, bought at 5% discount, sold at premium ✓
+- C) Commercial non-qualified deferred fixed annuity, 5% bonus, 5% guaranteed floor
+- D) Domestic zero-coupon treasuries, 5% discount, held to maturity, 5% imputed yield
+
+---
+
+**Student's Initial Analysis** (EXCELLENT):
+
+Student's reasoning:
+- "They're asking who gives max return, right?"
+- "Short-term capital loss can offset any type of capital gain"
+- "B definitely gives you more"
+- "Annuity gives income tax, not capital gain tax" ✓
+
+**Student understanding**: ✓ Correct reasoning!
+
+---
+
+**Teaching - Tax Treatment of Each Option**:
+
+**Option A - Muni bond discount, held to par**:
+- 5% discount = **ordinary income** (not capital gain)
+- Tax rule: "Market discount" on bonds = ordinary income
+- Zero capital gain → Can't offset loss carryover
+
+**Option B - Muni bond discount, sold at premium** ✓:
+- Gain from selling at premium = **CAPITAL GAIN** (taxable!)
+- Note: Muni bond INTEREST is tax-free, but CAPITAL GAINS are taxable
+- Creates biggest capital gain → Reduces loss carryover most
+
+**Option C - Annuity**:
+- Student correctly identified: **ordinary income**, not capital gain ✓
+- Can't offset capital loss
+
+**Option D - Zero-coupon treasury, held to maturity**:
+- Original Issue Discount (OID) = **ordinary income**
+- Taxed EVERY YEAR as "phantom income" (even without cash!)
+- When held to maturity: zero capital gain
+- Can't offset loss carryover
+
+---
+
+**Critical Tax Learning - Municipal Bonds Have TWO Types of Income**:
+
+**1. INTEREST income** (coupon payments):
+- Federal tax: **EXEMPT** (tax-free)
+- State tax: **EXEMPT if home state resident**
+- Triple-tax-free if local muni
+
+**2. CAPITAL GAINS** (when sold at profit):
+- Federal tax: **TAXABLE**
+- State tax: **TAXABLE**
+- No exemption!
+
+---
+
+**Student's Initial MISCONCEPTION** (corrected):
+
+**Student said**: "Federal bonds pay federal tax not state tax, state muni bonds pay state tax not federal tax, but if local resident you pay no tax"
+
+**CORRECTION PROVIDED**:
+
+**Municipal Bonds**:
+- INTEREST: Federal exempt, state exempt if home state
+- CAPITAL GAINS: Fully taxable (federal AND state)
+
+**Federal Bonds (Treasuries)**:
+- INTEREST: Federal taxable, state exempt
+- CAPITAL GAINS: Fully taxable (both levels)
+
+---
+
+**The Key Insight**: Municipal bond in home state = tax-free interest, BUT when sold at premium, that capital gain IS taxable - which is exactly what's needed to offset capital loss carryover!
+
+---
+
+**Answer: B** ✓
+
+---
+
+**Understanding Level**: VERY GOOD
+- Student's initial reasoning was excellent ✓
+- Learned critical distinction: Interest vs capital gains on munis
+- Corrected misconception about muni bond taxation
+- Understood all options create ordinary income except B
+
+---
+
+### Topic 7: Modified Duration and Bond Price Sensitivity (D.32)
+
+**Topic**: D.32 Bond and stock valuation - Duration as price sensitivity tool
+
+**Problem Given**: Bond has duration of 10 years, market rates 8%. By approximately how much would bond price decrease if rates increase to 10%?
+- A) 10.00%
+- B) 18.50% ✓
+- C) 20.00%
+- D) 21.60%
+
+---
+
+**Student's Initial Understanding**:
+- ✓ Knows duration intuition: "How long to get all money back"
+- ❓ "For things like this I have no idea how to even start to calculate"
+- Lacks practical application formula
+
+---
+
+**Instructor's First Attempt** (WRONG - Student Called It Out!):
+
+Instructor provided simple formula:
+```
+% Price Change ≈ -Duration × Change in Yield
+= -10 × 0.02 = -20%
+```
+
+Instructor said answer was **20.00%** (Option C)
+
+**Student's Response**: "I was told the correct answer is 18.50%, can you do some research and don't bullshit me"
+
+✓ **Student was RIGHT to call this out!**
+
+---
+
+**After Online Research - CORRECT Method**:
+
+**The Issue**: There are TWO types of duration:
+
+1. **Macaulay Duration** - measured in YEARS (what question gave: 10 years)
+2. **Modified Duration** - used for price change calculations
+
+**Step 1: Convert to Modified Duration**
+```
+Modified Duration = Macaulay Duration / (1 + Current Yield)
+Modified Duration = 10 / (1 + 0.08)
+Modified Duration = 10 / 1.08
+Modified Duration = 9.26
+```
+
+**Step 2: Calculate Price Change**
+```
+% Price Change = -Modified Duration × Change in Yield
+% Price Change = -9.26 × 0.02
+% Price Change = -0.1852 = -18.52%
+```
+
+**Answer: 18.50% (Option B)** ✓
+
+---
+
+**What Instructor Did Wrong**: Used Macaulay Duration (10) directly in price change formula, giving rough approximation of 20%. CORRECT method requires converting to Modified Duration first.
+
+**Key Takeaway for CFP Exam**: When given duration in years, convert to Modified Duration by dividing by (1 + current yield) before calculating price changes!
+
+---
+
+**Formula to Memorize**:
+```
+Modified Duration = Macaulay Duration / (1 + y)
+
+% Price Change = -Modified Duration × Δy
+```
+
+---
+
+**Understanding Level**: EXCELLENT
+- Student correctly challenged wrong answer
+- Demanded proper research-based solution ✓
+- Learned critical distinction: Macaulay vs Modified Duration
+- Understood conversion process
+
+---
+
+### Topic 8: CAPM Formula (D.30)
+
+**Topic**: D.30 Quantitative investment concepts - Capital Asset Pricing Model
+
+**Problem Given**: Stock has beta 1.20, risk-free rate 1%, risk premium 7%. What is required rate of return?
+- A) 8.2%
+- B) 8.4%
+- C) 9.4% ✓
+- D) 9.6%
+
+---
+
+**Student's Initial Attempt**:
+
+Student's thinking: "There is x (required return), need to use that minus 1% risk-free, times beta 1.2, plus risk-free premium 7%. But then it equals to what? I don't know how to solve that x."
+
+**Issue**: Student thought they needed to solve an equation for x
+
+---
+
+**Teaching - CAPM Formula Structure**:
+
+**CAPM Formula** (Capital Asset Pricing Model):
+```
+Required Return = Risk-free Rate + Beta × Market Risk Premium
+```
+
+**You DON'T solve for x!** The formula directly GIVES you required return.
+
+---
+
+**Given Information**:
+- Risk-free rate = 1%
+- Beta = 1.20
+- Market risk premium = 7%
+
+**Plug into Formula**:
+```
+Required Return = 1% + (1.20 × 7%)
+Required Return = 1% + 8.4%
+Required Return = 9.4%
+```
+
+**Answer: 9.4% (Option C)** ✓
+
+---
+
+**What This Means**:
+- Start with risk-free rate (1%) - what you'd get from T-bills
+- Add risk premium for THIS stock = Beta × Market Risk Premium
+- Beta of 1.20 = 20% MORE volatile than market
+- Should earn 1.20 times market's 7% premium = 8.4% extra
+- Total required return = 1% + 8.4% = 9.4%
+
+---
+
+**Understanding Level**: GOOD
+- Initially confused about equation structure
+- Quickly understood after formula clarification
+- Grasped beta's role (volatility multiplier)
+- Can apply formula correctly
+
+---
+
+### Topic 9: Gordon Growth Model with Retention Ratio (D.32)
+
+**Topic**: D.32 Bond and stock valuation - Dividend discount model with growth
+
+**Problem Given**: Company MSR - ROE 12.5%, retention ratio 50%, required return 12%, recently paid dividend $3.50. What is intrinsic value?
+- A) 55.52%
+- B) 56%
+- C) 60.87%
+- D) 64.70% ✓
+
+*(Note: Answer choices show % but should be dollars)*
+
+---
+
+**Student's Initial Understanding**:
+- ✓ Remembers Gordon Growth Model from earlier today
+- ❓ "I have no idea, especially the retention ratio, what's that even"
+- Needs to learn retention ratio concept
+
+---
+
+**Teaching - Retention Ratio**:
+
+**Retention Ratio** = % of earnings company KEEPS (retains) instead of paying as dividends
+
+- Retention ratio = 50% → company keeps half, pays out half
+- **Payout Ratio** = 1 - Retention Ratio = 50%
+
+**Why It Matters**: Retained money gets reinvested to grow the business!
+
+**Growth Rate Formula**:
+```
+Growth Rate (g) = ROE × Retention Ratio
+```
+
+**Intuition**: If company earns 12.5% ROE and reinvests 50% of earnings:
+```
+g = 12.5% × 50% = 6.25%
+```
+
+---
+
+**Step-by-Step Solution**:
+
+**Step 1: Calculate Growth Rate**
+```
+g = ROE × Retention Ratio
+g = 12.5% × 0.50 = 6.25%
+```
+
+**Step 2: Calculate Next Year's Dividend (D₁)**
+```
+D₁ = D₀ × (1 + g)
+D₁ = $3.50 × 1.0625 = $3.71875
+```
+
+**Step 3: Use Gordon Growth Model**
+```
+Intrinsic Value = D₁ / (r - g)
+Intrinsic Value = $3.71875 / (0.12 - 0.0625)
+Intrinsic Value = $3.71875 / 0.0575
+Intrinsic Value = $64.67
+```
+
+**Answer: $64.70 (Option D)** ✓
+
+---
+
+**Key Formulas Learned**:
+
+**Growth Rate**:
+```
+g = ROE × Retention Ratio
+```
+
+**Gordon Growth Model**:
+```
+P₀ = D₁ / (r - g)
+```
+
+**Where**:
+- D₁ = Next year's dividend = D₀ × (1 + g)
+- r = Required return
+- g = Growth rate
+
+---
+
+**Understanding Level**: GOOD
+- New concept (retention ratio) learned successfully
+- Connected to Gordon Growth Model from earlier
+- Understood growth calculation logic
+- Can apply formula correctly
+
+---
+
+## Topics Covered - Session Part 2
+
+| Topic | CFP Code | Confidence | Notes |
+|-------|----------|------------|-------|
+| Portfolio Immunization | D.32 | Medium-High | New concept - price risk vs reinvestment risk |
+| Capital Loss Carryover | E.40 | High | Excellent reasoning, learned muni tax rules |
+| Municipal Bond Taxation | E.36 | High | Interest tax-free, capital gains taxable |
+| Modified Duration | D.32 | High | Critical distinction from Macaulay duration |
+| CAPM Formula | D.30 | High | Formula structure mastered |
+| Gordon Growth with Retention | D.32 | Medium-High | New concept - retention ratio |
+
+---
+
+## Key Concepts Mastered - Part 2
+
+### Portfolio Immunization (D.32)
+- Balances **price risk** and **reinvestment risk**
+- When rates rise: prices fall BUT reinvestment income rises
+- When rates fall: prices rise BUT reinvestment income falls
+- Match bond duration to liability time horizon
+- Offsetting risks protect against rate changes
+
+### Capital Loss and Municipal Bond Taxation (E.36, E.40)
+- Short-term capital loss can offset ANY capital gain
+- Municipal bonds have TWO income types:
+  1. **Interest**: Tax-free (federal and home state)
+  2. **Capital gains**: FULLY TAXABLE
+- Market discount on bonds = ordinary income (not capital gain)
+- OID on zero-coupon bonds = ordinary income taxed annually
+- Only Option B created capital gain to offset loss
+
+### Modified Duration (D.32)
+- **Macaulay Duration**: Time-weighted measure (in years)
+- **Modified Duration**: Price sensitivity measure
+- **Conversion**: Modified = Macaulay / (1 + yield)
+- **Price change formula**: % Change = -Modified Duration × Δyield
+- Example: Duration 10, yield 8% → Modified = 9.26
+- 2% rate increase → -18.5% price change
+
+### CAPM - Capital Asset Pricing Model (D.30)
+- **Formula**: Required Return = Risk-free Rate + Beta × Market Risk Premium
+- Beta measures stock volatility vs market
+- Beta > 1: More volatile than market
+- Beta < 1: Less volatile than market
+- Beta = 1: Same as market
+- Example: Beta 1.20 means 20% more volatile
+
+### Gordon Growth Model with Retention Ratio (D.32)
+- **Retention Ratio**: % of earnings kept (not paid as dividends)
+- **Payout Ratio**: 1 - Retention Ratio
+- **Growth Rate**: g = ROE × Retention Ratio
+- **Gordon Model**: P₀ = D₁ / (r - g)
+- Higher retention = higher growth but lower current dividends
+- Trade-off between current income and future growth
+
+---
+
+## Progress Assessment - Part 2
+
+**New Topics Added**:
+- D.30 Quantitative investment concepts (CAPM) ← NEW!
+- E.36 Income tax fundamentals (muni bond taxation)
+- E.40 Tax reduction techniques (capital loss carryover)
+
+**Topics Reinforced**:
+- D.32 Bond/stock valuation (immunization, duration, Gordon Growth)
+
+**Strengths Observed**:
+- Excellent critical thinking (called out wrong duration answer)
+- Strong initial reasoning (capital loss problem)
+- Demanded accuracy and research-based answers ✓
+- Quick learning on new concepts (retention ratio)
+
+**Areas for Continued Practice**:
+- Modified duration calculations (now mastered)
+- CAPM applications with different betas
+- Multi-stage DDM vs Gordon Growth
+
+---
+
+## Session Statistics - Part 2
+
+**Session Duration**: ~45 minutes
+**Topics Covered**: 5 major topics across 3 domains (D, E)
+**Format**: Practice problem testing
+**Performance**: Excellent - challenged incorrect answers, demanded precision
+
+**Days Until Exam**: 16 days
+
+---
+
+## Notes - Session Part 2
+
+**Critical Achievement**: Student demanded accuracy and called out instructor's wrong answer on modified duration - then got proper research-based solution. This demonstrates excellent critical thinking and willingness to challenge authority when numbers don't make sense.
+
+**Major Learning**:
+- Portfolio immunization concept (offsetting risks)
+- Municipal bond taxation (interest vs capital gains)
+- Modified vs Macaulay duration (critical CFP exam distinction)
+- CAPM formula application
+- Retention ratio and growth rate relationship
+
+**Investment Planning Domain**: Made progress on D.30 (quantitative concepts) - now 8/9 topics (89%)!
+
+**Tax Planning Domain**: Added E.36 and E.40 coverage
+
+**Ready for**: Complete Investment Planning (D.31 only remaining), or move to high-priority gaps (E.38 Business Taxation, General Principles domain)

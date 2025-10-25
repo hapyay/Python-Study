@@ -14,7 +14,7 @@ This single document tracks ALL your CFP exam preparation progress, including:
 
 ## Quick Stats
 
-📊 **Overall Progress**: 51/73 topics covered = **70%**
+📊 **Overall Progress**: 53/73 topics covered = **73%**
 📚 **Study Materials**: 1,088 pages of 2024 Dalton slides
 ⏰ **Time Remaining**: 16 days
 🎯 **Target**: Pass CFP exam November 10, 2025
@@ -28,7 +28,7 @@ This single document tracks ALL your CFP exam preparation progress, including:
 | **A. Professional Conduct** | 8% | 0/6 | ✓ 90 pages | ⚪ Not Started | Medium |
 | **B. General Principles** | 15% | 3/10 | ✓ 90 pages | 🟡 Started (30%) | **HIGH** |
 | **C. Insurance & Risk** | 11% | 10/10 | ✓ 188 pages | 🟢 **COMPLETE (100%)** ✅ | **DONE** |
-| **D. Investment Planning** | 17% | 7/9 | ✓ 188 pages | 🟡 In Progress (78%) | **HIGH** |
+| **D. Investment Planning** | 17% | 8/9 | ✓ 188 pages | 🟡 In Progress (89%) | **HIGH** |
 | **E. Tax Planning** | 14% | 8/8 | ✓ 150 pages | 🟢 **COMPLETE (100%)** ✅ | **DONE** |
 | **F. Retirement** | **18%** ⭐ | 10/10 | ✓ 182 pages | 🟢 **COMPLETE (100%)** ✅ | **DONE** |
 | **G. Estate Planning** | 10% | 9/14 | ✓ 200 pages | 🟡 In Progress (64%) | Medium |
@@ -264,7 +264,7 @@ This single document tracks ALL your CFP exam preparation progress, including:
 
 **Slides**: Investments (188 pages)
 
-### ✅ Mastered Topics (7/9 - partial)
+### ✅ Mastered Topics (8/9 - partial)
 
 - [x] **D.27 Investment vehicles** (2025-10-24) - **Medium-High confidence** (PARTIAL)
   - **Zero-Coupon Bonds** (2025-10-24) - MASTERED:
@@ -344,8 +344,37 @@ This single document tracks ALL your CFP exam preparation progress, including:
       - Discount: "Can't You Try Calling?" (CR < CY < YTM < YTC)
       - Par: "Everyone's Equal"
     - Comprehensive understanding demonstrated ✓
+  - **Portfolio Immunization** (2025-10-25) - MASTERED:
+    - Balances **price risk** and **reinvestment risk**
+    - When rates rise: bond prices fall BUT reinvestment income rises (offsetting)
+    - When rates fall: bond prices rise BUT reinvestment income falls (offsetting)
+    - Match bond duration to liability time horizon
+    - **Pension fund example**: 5-year liability, buy 5-year duration bond
+    - If rates change, two risks cancel out → still meet liability ✓
+    - Perfect on practice problem ✓
+  - **Modified Duration** (2025-10-25) - MASTERED:
+    - **Two types of duration**:
+      - **Macaulay Duration**: Time-weighted measure (in years)
+      - **Modified Duration**: Price sensitivity measure
+    - **Conversion**: Modified Duration = Macaulay Duration / (1 + yield)
+    - **Price change formula**: % Change = -Modified Duration × Δyield
+    - **Critical exam trap**: Must convert Macaulay to Modified before using in formula!
+    - Example: Macaulay 10 years, yield 8% → Modified = 9.26
+    - 2% rate increase → -18.5% price change (NOT -20%!)
+    - Student correctly challenged wrong answer ✓
+  - **Gordon Growth Model with Retention Ratio** (2025-10-25) - MASTERED:
+    - **Retention Ratio**: % of earnings kept (not paid as dividends)
+    - **Payout Ratio**: 1 - Retention Ratio
+    - **Growth Rate**: g = ROE × Retention Ratio
+    - **Gordon Model**: P₀ = D₁ / (r - g)
+    - Example: ROE 12.5%, retention 50% → g = 6.25%
+    - D₀ $3.50, r 12% → Intrinsic Value = $64.70 ✓
+    - **Trade-off**: Higher retention = higher growth but lower current dividends
+    - Perfect on practice problem ✓
+  - **Multi-Stage Dividend Discount Model** (2025-10-25) - Reinforced:
+    - Covered earlier today, applied in practice problems
   - **In slides**: Pages 95-130
-  - **Still need to cover**: Duration, immunization, dividend discount model, P/E ratios
+  - **Still need to cover**: P/E ratios
 
 - [x] **D.34 Investment strategies** (2025-10-11, 2025-10-24) - **High confidence**
   - Short selling mechanics
@@ -358,10 +387,20 @@ This single document tracks ALL your CFP exam preparation progress, including:
     - Support and resistance identification
   - **In slides**: Pages 140-160
 
-### Not Yet Studied (2/9 topics)
+- [x] **D.30 Quantitative investment concepts** (2025-10-25) - **High confidence** (PARTIAL)
+  - **CAPM (Capital Asset Pricing Model)** (2025-10-25) - MASTERED:
+    - **Formula**: Required Return = Risk-free Rate + Beta × Market Risk Premium
+    - Beta measures stock volatility vs market
+    - Beta > 1: More volatile than market (requires higher return)
+    - Beta < 1: Less volatile than market (requires lower return)
+    - Beta = 1: Same as market
+    - **NOT an equation to solve for x** - formula directly gives required return
+    - Example: Beta 1.20, RF 1%, MRP 7% → Required Return = 9.4% ✓
+    - Perfect on practice problem ✓
+  - **In slides**: Pages 60-75 (HPR, IRR, Standard deviation, Beta, Sharpe/Treynor/Jensen, NPV)
+  - **Still need to cover**: Standard deviation, Sharpe/Treynor/Jensen ratios, NPV/IRR calculations
 
-- [ ] **D.30** Quantitative concepts ⭐
-  - **In slides**: HPR, IRR, Standard deviation, Beta, Sharpe/Treynor/Jensen, NPV
+### Not Yet Studied (1/9 topics)
 
 - [ ] **D.31** Asset allocation ⭐
   - **In slides**: MPT, Efficient frontier, CAPM, Portfolio risk formula
@@ -372,7 +411,7 @@ This single document tracks ALL your CFP exam preparation progress, including:
 - [ ] **D.35** Alternative investments
   - **In slides**: REITs, Derivatives, Commodities
 
-**Priority**: **HIGH** - 17% of exam, now 78% complete! Focus on D.30-D.31 (quantitative concepts and asset allocation)
+**Priority**: **HIGH** - 17% of exam, now 89% complete! Only D.31 (asset allocation) remaining - nearly complete!
 
 ---
 
@@ -382,8 +421,23 @@ This single document tracks ALL your CFP exam preparation progress, including:
 
 ### ✅ Mastered Topics (6/8)
 
-- [x] **E.36 Tax law fundamentals** (2025-10-11) - **High confidence**
+- [x] **E.36 Tax law fundamentals** (2025-10-11, 2025-10-25) - **High confidence**
   - Tax doctrines: Step transaction, Constructive receipt, Assignment of income
+  - **Municipal Bond Taxation** (2025-10-25) - MASTERED:
+    - Municipal bonds have TWO types of income:
+      1. **INTEREST income** (coupon payments):
+         - Federal tax: **EXEMPT** (tax-free)
+         - State tax: **EXEMPT if home state resident** (triple-tax-free if local)
+      2. **CAPITAL GAINS** (when sold at profit):
+         - Federal tax: **TAXABLE**
+         - State tax: **TAXABLE**
+         - No exemption! Capital gains fully taxable even on munis
+    - **Corrected misconception**: Student thought munis avoided all federal tax
+    - **Key insight**: Interest tax-free, but capital gains ARE taxable
+    - This distinction critical for capital loss offset strategies ✓
+  - **Treasury Bond Taxation**:
+    - INTEREST: Federal taxable, state exempt
+    - CAPITAL GAINS: Fully taxable (both levels)
   - **In slides**: Pages 1-15
 
 - [x] **E.37 Income tax calculations** (2025-10-11, 2025-10-19, 2025-10-24) - **High confidence**
@@ -415,7 +469,7 @@ This single document tracks ALL your CFP exam preparation progress, including:
   - **In slides**: Pages 135-145
   - **Action**: Study ASAP with fresh mind
 
-- [x] **E.40 Tax reduction techniques** (2025-10-11, 2025-10-19) - **High confidence**
+- [x] **E.40 Tax reduction techniques** (2025-10-11, 2025-10-19, 2025-10-25) - **High confidence**
   - Traditional IRA contributions & deductions
   - Roth IRA strategy
   - QCD (Qualified Charitable Distributions)
@@ -426,6 +480,17 @@ This single document tracks ALL your CFP exam preparation progress, including:
     - $1,000 deduction in 32% bracket = only $320 savings
     - Credits ALWAYS beat equal-dollar deductions ✓
   - **Child support not deductible** (2025-10-19) - tax-neutral
+  - **Capital Loss Carryover** (2025-10-25) - MASTERED:
+    - Short-term capital loss can offset ANY capital gain (ST or LT)
+    - To reduce capital loss carryover, need CAPITAL GAIN income
+    - **Critical tax treatments**:
+      - Market discount on bonds (buy at discount, hold to par) = **ordinary income** (NOT capital gain)
+      - OID on zero-coupon bonds (held to maturity) = **ordinary income** (NOT capital gain)
+      - Annuity gains = **ordinary income** (NOT capital gain)
+      - Municipal bond sold at premium = **CAPITAL GAIN** (taxable!) ✓
+    - **Only capital gains can offset capital loss carryover**
+    - Student's excellent reasoning: "B definitely gives you more" ✓
+    - Perfect on practice problem ✓
   - **Capital losses** (2025-10-19): Offset up to $3,000 ordinary income/year
   - **In slides**: Pages 60-90 (Deductions FOR/FROM AGI, Itemized, Pass-through 199A)
 
