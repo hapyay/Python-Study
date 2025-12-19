@@ -1,184 +1,122 @@
-# CFP Exam Study Repository
+# Python学习仓库
 
-🎉 **I PASSED the CFP Exam on November 10, 2025!** 🎉
+这是一个基于AI引导学习的Python编程学习仓库，帮助你系统掌握Python基础并为大模型应用开发做准备。
 
-This is my personal study repository that helped me pass the Certified Financial Planner (CFP) exam on my second attempt. After failing in November 2024, I rebuilt my study approach using AI-powered guided learning with Claude Code - and it made all the difference.
+## 学习目标
 
-**Thanks to AI and Claude Code**, I went from a failed attempt to **82% mastery** (60/73 topics) across 23 focused study sessions, ultimately passing the exam.
+- **30天掌握Python基础功能**
+- 为学习FastAPI、React和LangChain等框架做准备
+- 具备开发大模型应用的编程基础
+- 掌握实际项目开发能力
 
-**Let's connect on LinkedIn**: [linkedin.com/in/chenran818](https://linkedin.com/in/chenran818)
-
----
-
-**Final Exam Stats**:
-- **Exam Date**: November 10, 2025 ✅ PASSED
-- **Final Progress**: 82% (60/73 CFP topics mastered)
-- **Study Sessions**: 23 sessions (Oct 11 - Nov 7, 2025)
-- **Study Materials**: 1,088 pages (2024 Dalton Review slides)
-
-## How This Works
-
-This repository uses Claude Code as an interactive CFP exam tutor that:
-- Teaches using the Socratic method (asking what you know first)
-- Provides concise (~200 word) explanations
-- Verifies your understanding with follow-up questions
-- Adapts teaching style based on your responses
-- **Tracks every learning session to personalize your study experience**
-
-## Repository Structure
+## 项目结构
 
 ```
-/sessions/                    # 23 daily learning sessions documented
-  /2025-10-11/               # One folder per study day
-  /2025-10-17/               # Sessions from Oct 11 - Nov 7
-  /2025-11-07/
-  SESSION-TEMPLATE.md        # Template for documenting sessions
+/code/                        # Python代码目录
+  /exercises/                # 基础练习代码
+    basic_syntax.py         # 基础语法练习
+    data_structures.py      # 数据结构练习
+    functions.py            # 函数练习
+  /projects/                 # 完整项目实践
+    calculator.py           # 计算器项目
+    data_processor.py       # 数据处理项目
+  /solutions/               # 参考答案和最佳实践
+  /tests/                   # 单元测试和代码验证
+  README.md                 # 代码目录说明
 
-/progress/                    # Single source of truth for exam prep
-  cfp-study-tracker.md       # Comprehensive tracker with:
-                             # - All 73 CFP topics mapped
-                             # - Topics mastered (60/73)
-                             # - Knowledge gaps identified
-                             # - Study plan for remaining days
+/progress/                    # 学习进度跟踪
+  python-learning-tracker.md  # Python学习进度跟踪器
 
-/2024 Slides/                 # Complete 2024 Dalton Review materials
-  2024 TDR Estate slides.pdf
-  2024 TDR Fundamentals slides.pdf
-  2024 TDR Insurance slides.pdf
-  2024 TDR Investments slides.pdf
-  2024 TDR Retirement slides.pdf
-  2024 TDR Tax slides.pdf
+/sessions/                    # 学习会话记录
+  /YYYY-MM-DD/               # 每日学习会话
+  SESSION-TEMPLATE.md        # 会话记录模板
 
-CLAUDE.md                     # AI tutor instructions (Socratic method)
-README.md                     # This file
+2024 Slides/                  # 原CFP学习资料（保留）
+
+CLAUDE.md                     # AI导师学习指导
+README.md                     # 本文件
 ```
 
-## How to Use
+## 学习方法
 
-### Daily Study Sessions
+### 1. 每日学习计划
 
-1. Open Claude Code in this repository
-2. Ask questions about CFP topics naturally - just like talking to a tutor
-3. Answer the comprehension check questions Claude asks
-4. After each session, Claude will automatically document:
-   - What you learned
-   - What you struggled with
-   - What you mastered
-   - What to review next
+- **第1周：基础语法** - 变量、数据类型、条件语句、循环
+- **第2周：核心概念** - 函数、面向对象编程、文件操作
+- **第3周：高级特性** - 装饰器、生成器、列表推导式
+- **第4周：项目实践** - 实际项目开发、调试技巧
 
-### Review Sessions
+### 2. 学习资源
 
-When you want to review, simply ask Claude:
-- "Let's review topics I've struggled with"
-- "What should I focus on today?"
-- "Quiz me on my weak areas"
-- "Show me my progress"
+- **主要学习资料**：[廖雪峰Python教程](https://liaoxuefeng.com/books/python/introduction/index.html)
+- **辅助资源**：Python官方文档、Stack Overflow、GitHub热门项目
+- **练习平台**：LeetCode、HackerRank
 
-Claude will read your session history and create a personalized review based on your past performance.
+### 3. 学习建议
 
-### Track Your Progress
+- 先理解概念，再动手编码
+- 多写注释，便于复习
+- 定期回顾已学内容
+- 尝试修改和扩展示例代码
+- 完成每个项目后进行代码优化
 
-View your comprehensive study tracker at `/progress/cfp-study-tracker.md` to see:
-- Overall exam readiness (currently 82%)
-- Which domains are complete (4 major domains ✅)
-- Remaining knowledge gaps
-- Prioritized study plan for exam day
+## 如何使用本仓库
 
-## Study Philosophy
+### 1. 克隆仓库
 
-**Guided Learning Approach:**
-- Conversational and judgment-free
-- Builds on your existing knowledge
-- Checks understanding before moving forward
-- Adapts to your learning style
-- Focuses on deep understanding, not just memorization
+```bash
+git clone https://github.com/hapyay/Python-Study.git
+cd Python-Study
+```
 
-## Study Materials
+### 2. 开始学习
 
-**2024 Dalton Review Slides** (1,088 pages total):
-- Estate Planning (200 pages)
-- Fundamentals (90 pages)
-- Insurance (188 pages)
-- Investments (188 pages)
-- Retirement (182 pages)
-- Tax (150 pages)
+1. 从`code/exercises/`目录开始，逐步完成基础练习
+2. 完成练习后，尝试`code/projects/`目录中的项目
+3. 参考`code/solutions/`目录中的参考答案
+4. 使用`progress/python-learning-tracker.md`跟踪学习进度
+5. 在`/sessions/`目录记录每日学习内容
 
-All materials have been thoroughly mapped to the 73 CFP exam topics.
+### 3. 运行示例代码
 
-## Free Study Resources
+```bash
+# 运行基础语法练习
+python code/exercises/basic_syntax.py
 
-In addition to the Dalton Review materials, here are some excellent **free resources** that can supplement your CFP exam prep:
+# 运行计算器项目
+python code/projects/calculator.py
 
-**Podcasts & Audio:**
-- [Open Exam Prep Podcast](https://open.spotify.com/show/55EmWfdtPaK641q4Rk3mI1) - Free CFP exam prep podcast on Spotify
-- [Financial Planning Essentials Playlist](https://open.spotify.com/playlist/6GUIZvnpaiOiYmXkanqwZ8) - Study music playlist on Spotify
+# 运行数据处理项目
+python code/projects/data_processor.py
+```
 
-**Video Content:**
-- [Open Exam Prep YouTube](https://www.youtube.com/@Open-exam-prep) - Free video content covering CFP exam topics
+## 项目功能
 
-**Website:**
-- [open-exam-prep.com](https://open-exam-prep.com/) - Additional free resources and study materials
+- **基础语法练习**：变量、数据类型、条件语句、循环
+- **数据结构**：列表、元组、字典、集合
+- **函数编程**：函数定义、参数传递、返回值
+- **面向对象编程**：类、对象、继承、多态
+- **文件操作**：读写文件、JSON/CSV处理
+- **实际项目**：计算器、数据处理器
 
-These free resources are great for passive learning during commutes, workouts, or downtime.
+## 技术栈
 
-## Key Features
+- **编程语言**：Python 3.8+
+- **开发工具**：VS Code、Git
+- **学习框架**：AI引导学习
 
-**Personalized Learning**:
-- 23 documented study sessions with detailed notes
-- Socratic teaching method (builds on what you already know)
-- Adaptive explanations based on your responses
-- Practice problems tailored to your weak areas
+## 学习进度跟踪
 
-**Comprehensive Tracking**:
-- Every session automatically documented
-- Knowledge gaps identified and tracked
-- Topics mastered with confidence levels
-- Progress measured against exam weights
+使用`/progress/python-learning-tracker.md`文件跟踪学习进度，包括：
+- 已掌握的主题
+- 知识差距
+- 学习计划
+- 项目完成情况
 
-**Evidence-Based Approach**:
-- All answers verified with authoritative sources (IRS.gov, CFP Board)
-- No guessing on technical questions
-- Citations provided for complex rules
-- Focus on understanding "why" not just "what"
+## 贡献
 
-## How to Use This Repository for Your Own CFP Exam Prep
+欢迎提交PR，分享你的学习经验和代码优化建议！
 
-Want to use this AI-powered study system for your own CFP exam preparation? It's simple:
+## 许可证
 
-1. **Clone this repository**:
-   ```bash
-   git clone https://github.com/chenran818/CFP-Study.git
-   cd CFP-Study
-   ```
-
-2. **Clear my study history** (start fresh):
-   ```bash
-   rm -rf progress/ sessions/
-   ```
-
-3. **Run Claude Code**:
-   ```bash
-   claude-code
-   ```
-
-4. **That's it!** Start asking CFP questions and Claude will:
-   - Teach you using the Socratic method
-   - Create new `progress/` and `sessions/` folders automatically
-   - Track your learning journey just like it did for me
-   - Adapt to your learning style
-
-The `CLAUDE.md` file contains all the instructions for how Claude should tutor you. The `2024 Slides/` folder has all the study materials already mapped to CFP topics. **It works magically!**
-
-## Getting Started
-
-Just start a conversation with Claude Code and ask your first CFP question. Claude will guide you from there while automatically tracking your progress.
-
----
-
-## About the Author
-
-After failing the CFP exam in November 2024, I knew I needed a different approach. Traditional study methods weren't working for me. Using Claude Code as my AI study partner transformed my preparation - the Socratic teaching method, personalized feedback, and systematic progress tracking made complex financial planning concepts finally click.
-
-If you're preparing for the CFP exam or any professional certification, I hope this repository inspires you to leverage AI tools in your learning journey.
-
-**Connect with me**: [linkedin.com/in/chenran818](https://linkedin.com/in/chenran818)
+MIT License
