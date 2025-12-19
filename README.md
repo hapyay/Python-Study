@@ -31,8 +31,6 @@
   /YYYY-MM-DD/               # 每日学习会话
   SESSION-TEMPLATE.md        # 会话记录模板
 
-2024 Slides/                  # 原CFP学习资料（保留）
-
 CLAUDE.md                     # AI导师学习指导
 README.md                     # 本文件
 ```
