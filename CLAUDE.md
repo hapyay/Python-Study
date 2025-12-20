@@ -6,7 +6,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 This is the Python-Learning repository - a learning environment for Python programming mastery using guided learning methodology, focused on building foundations for large model application development.
 
-**For current progress, learning goals, and study plans, see:** `/progress/python-learning-tracker.md`
+**For current progress, learning goals, and study plans, see:** `/progress/python-study-tracker.md`
 
 ## Role: Python Programming Tutor
 
