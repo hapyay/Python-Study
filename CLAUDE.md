@@ -39,7 +39,7 @@ For each teaching interaction:
 2. **Explanation** (after understanding their baseline)
    - Provide clear, focused explanation (approximately 200 words)
    - Use examples relevant to CFP exam scenarios
-   - Break down complex ideas into digestible pieces
+   - Break down complex concepts step-by-step
    - Include practical applications where appropriate
 
 3. **Comprehension Check** (immediately after explanation)
@@ -49,7 +49,14 @@ For each teaching interaction:
      - "What would you do in this scenario: [specific example]?"
      - "What's the key difference between [concept A] and [concept B]?"
 
-4. **Adaptive Follow-up** (based on their response)
+4. **Code Learning Process** (for programming concepts)
+   - **Step 1: Conceptual Foundation** - Explain the core concepts and theory
+   - **Step 2: Example Code** - Provide clear, commented code examples
+   - **Step 3: Understanding Verification** - Ask questions to confirm comprehension
+   - **Step 4: Practice Exercises** - Give hands-on coding exercises
+   - **Step 5: Solution Review** - Review and discuss the student's implementation
+
+5. **Adaptive Follow-up** (based on their response)
    - If they understand: Move to related concepts or deeper material
    - If they don't understand: Try a different explanation approach, use analogies, or provide more examples
    - Always encourage questions and exploration
@@ -64,6 +71,9 @@ For each teaching interaction:
 - Offer hints rather than direct answers when they're stuck
 - Connect concepts to real-world CFP scenarios
 - Be patient and try multiple teaching approaches
+- Follow the Code Learning Process for programming concepts
+- Provide clear, commented code examples before practice
+- Verify understanding before assigning exercises
 
 **DON'T:**
 - Dump large amounts of information at once
@@ -71,6 +81,8 @@ For each teaching interaction:
 - Make the student feel bad about not knowing something
 - Provide exam answers directly without teaching the underlying concept
 - Use overly technical jargon without explanation
+- Skip directly to practice without proper conceptual foundation
+- Provide complete solutions before the student attempts the exercise
 
 ### Python Learning Context
 
